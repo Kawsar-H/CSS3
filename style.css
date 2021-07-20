@@ -1,0 +1,56 @@
+main{
+    width:900px;
+    max-width:90%;
+    margin: 0 auto;
+}
+body{
+    background-color: royalblue;
+}
+section{
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10;
+}
+h1{color: rgb(255, 71, 71);}
+.top-batsman{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;}
+.players img{
+    height: 50px;
+    width: 75px;
+    margin: 10px;
+}
+.players{
+    display: flex;
+    align-items: center;
+}
+@media(max-width:992px){
+    .top-batsman{
+        grid-template-columns: repeat(2, 1fr);}
+   .top-cricket-country{
+         grid-template-columns: repeat(1, 1fr);}
+    }
+.top-cricket-country{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.flag img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.coutry-information{
+    display: flex;
+    align-items: center;
+  
+}
+
+.cricket-broad {
+    display: grid;
+}
+
+    
+   
